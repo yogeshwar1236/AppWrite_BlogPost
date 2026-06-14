@@ -23,14 +23,13 @@ useEffect(() => {
 }, [])
 
  return !loading ? ( 
-  <div className='min-h-screen flex flex-wrap content-between bg-red-400 text-black'><div>
+  <div className='min-h-screen flex flex-col bg-red-400 text-black'>
     <Header />
-    <main>
+    <main className='flex-grow'>
        <Outlet />
     </main>
     <Footer />
-    </div>
-    </div>
+  </div>
  ) : (null)
 }
 
