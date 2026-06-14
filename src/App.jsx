@@ -23,7 +23,7 @@ useEffect(() => {
 }, [])
 
  return !loading ? ( 
-  <div className='min-h-screen flex flex-col bg-red-400 text-black'>
+  <div className='min-h-screen flex flex-col bg-slate-100 text-slate-900'>
     <Header />
     <main className='flex-grow'>
        <Outlet />

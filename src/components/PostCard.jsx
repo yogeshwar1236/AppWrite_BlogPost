@@ -13,7 +13,7 @@ function PostCard(props) {
 
   return (
     <Link to={`/post/${postId}`} className='block h-full'>
-        <article className='h-full w-full overflow-hidden rounded-lg bg-gray-100 text-black shadow-sm duration-200 hover:bg-blue-50'>
+        <article className='h-full w-full overflow-hidden rounded-lg bg-white text-slate-900 shadow-sm duration-200 hover:shadow-md hover:ring-2 hover:ring-indigo-400'>
             <div className='aspect-video w-full overflow-hidden bg-gray-200'>
                 {imageUrl && !imageFailed ? (
                     <img
